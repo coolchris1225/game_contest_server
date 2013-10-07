@@ -8,7 +8,10 @@ gem 'sqlite3'
 
 group :test do
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
+
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development, :test do
   gem 'rspec-rails'

@@ -1,0 +1,38 @@
+
+body{
+height:100%
+background-color:black;
+background-image:url('digital.jpg');
+background-position:  center;
+background-repeat:no-repeat;
+text-align:center;
+}
+html{min-height:100%;position:relative}
+
+
+/*These are custom fonts, normally not avalible on the web */
+@font-face
+{
+font-family: myFirstFont;
+src: url('/assets/fonts/bankgthd.ttf')
+    ,url('bankgthd.eot'); 
+    
+}
+
+
+*.center {text-align:center; }
+
+
+
+h1{
+color:white;
+font-family:"arial",Georgia,Serif;
+
+}
+p{
+color:white;
+}
+
+
+
+
