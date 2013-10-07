@@ -11159,3 +11159,58 @@ Processing by UsersController#show as HTML
   [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "7"]]
   Rendered users/show.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 192.195.249.238 at 2013-10-07 13:20:38 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (2.7ms)
+  Rendered users/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 155ms (Views: 118.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:39 +0000
+
+
+Started GET "/users/7" for 192.195.249.238 at 2013-10-07 13:20:41 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "7"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/7" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "7"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.238 at 2013-10-07 13:20:45 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.238 at 2013-10-07 13:20:45 +0000

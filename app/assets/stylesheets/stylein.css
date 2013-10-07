@@ -6,6 +6,7 @@ background-image:url('digital.jpg');
 background-position:  center;
 background-repeat:no-repeat;
 text-align:center;
+  color:white;
 }
 html{min-height:100%;position:relative}
 
