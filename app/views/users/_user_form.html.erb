@@ -1,3 +1,12 @@
+
+<% if @user.errors.any? %>
+  <p>There are <%= @user.errors.count %> errors.</p>
+  <ul>
+    <%  @user.errors.full_messages.each do |message| %>
+    <li> <%= message %> </li>
+    <% end %>
+</ul>
+  <% end %>
 <p>
   <%= f.label :username, "Username" %>
   <%= f.text_field :username %>
