@@ -11887,3 +11887,3358 @@ Started GET "/assets/users.js?body=1" for 184.75.221.202 at 2013-10-07 14:30:47 
 
 
 Started GET "/assets/application.js?body=1" for 184.75.221.50 at 2013-10-07 14:30:47 +0000
+
+
+Started GET "/" for 216.162.49.78 at 2013-10-07 18:37:13 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 32ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (10.5ms)
+  Rendered users/new.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 141ms (Views: 127.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/users.css?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/users.js?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/assets/digital.jpg" for 216.162.49.78 at 2013-10-07 18:37:19 +0000
+
+
+Started GET "/" for 192.195.249.211 at 2013-10-07 23:07:25 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 32ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/uses/new" for 192.195.249.211 at 2013-10-07 23:07:35 +0000
+
+ActionController::RoutingError (No route matches [GET] "/uses/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.3ms)
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:07:40 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (6.9ms)
+  Rendered users/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 172ms (Views: 139.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:07:41 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:07:52 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:55 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:07:56 +0000
+
+
+Started POST "/users" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FPNNyxwkRZtNSF8sdKQEN+i9I5LYihz0KVM/GLCzR1k=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (3.5ms)
+  Rendered users/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 44ms (Views: 20.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:08:19 +0000
+
+
+Started POST "/users" for 192.195.249.211 at 2013-10-07 23:20:48 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FPNNyxwkRZtNSF8sdKQEN+i9I5LYihz0KVM/GLCzR1k=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/_user_form.html.erb (3.0ms)
+  Rendered users/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1918ms (Views: 1909.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:20:50 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:20:51 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:21:21 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1304ms (Views: 1303.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:21:23 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:21:39 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1302ms (Views: 1301.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:21:41 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:22:04 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2852ms (Views: 2850.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:22:07 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:22:07 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:22:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:22:08 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:23:53 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1500ms (Views: 1499.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:23:57 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:23:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:23:57 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:23:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:23:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:23:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:23:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:23:58 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:23:59 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:24:39 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1470ms (Views: 1469.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:24:40 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:24:41 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:25:27 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 3077ms (Views: 3076.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:25:30 +0000
+
+
+Started GET "/" for 192.195.249.224 at 2013-10-07 23:27:02 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.224 at 2013-10-07 23:27:06 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.5ms)
+  Rendered users/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.224 at 2013-10-07 23:27:07 +0000
+
+
+Started GET "/index" for 192.195.249.224 at 2013-10-07 23:27:24 +0000
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (25.9ms)
+
+
+Started GET "/new" for 192.195.249.224 at 2013-10-07 23:27:34 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.9ms)
+
+
+Started GET "/users/new" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.7ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:39 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.224 at 2013-10-07 23:27:42 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:28:16 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1265ms (Views: 1263.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:28:17 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:28:18 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:29:01 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1492ms (Views: 1491.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:02 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:02 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:03 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:03 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:29:03 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:29:32 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1355ms (Views: 1353.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:29:33 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:29:34 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:30:07 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1288ms (Views: 1287.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:08 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:30:09 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:30:24 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1302ms (Views: 1300.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:25 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:25 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:27 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:30:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:27 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:28 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:30:28 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:30:28 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:33:08 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 735ms
+
+ActionView::Template::Error (Incompatible units: 'px' and '%'.
+  (in /home/action/game_contest_server/app/assets/stylesheets/stylein.css.scss:47)):
+    2: <html>
+    3: <head>
+    4:   <title>GameContestServer</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/stylein.css.scss:47
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1751946519496315077_70107493704940'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.2ms)
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:33:48 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 3747ms (Views: 3745.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:33:52 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:33:53 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:11 +0000
+
+
+Started GET "/users/new" for 192.195.249.211 at 2013-10-07 23:36:32 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1451ms (Views: 1449.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:34 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.211 at 2013-10-07 23:36:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:35 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:35 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.211 at 2013-10-07 23:36:36 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.211 at 2013-10-07 23:36:36 +0000
+
+
+Started GET "/" for 192.195.249.223 at 2013-10-09 13:06:44 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 33ms (Views: 10.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:06:49 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (10.5ms)
+  Rendered users/new.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 195ms (Views: 165.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:06:49 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:06:50 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:09:35 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1631ms (Views: 1629.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:09:37 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:09:47 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1433ms (Views: 1431.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:09:48 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:09:56 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1338ms (Views: 1336.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:09:58 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:10:04 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (3.6ms)
+  Rendered users/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 85ms (Views: 32.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:10:04 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:10:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:10:04 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:10:05 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:10:05 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/_user_form.html.erb (4.0ms)
+  Rendered users/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 27ms (Views: 19.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:11:36 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:12:26 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (4.4ms)
+  Rendered users/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 39ms (Views: 31.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:12:27 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:19:22 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/_user_form.html.erb (36.7ms)
+  Rendered users/new.html.erb within layouts/application (39.7ms)
+WARNING on line 5 of /home/action/game_contest_server/app/assets/stylesheets/stylein.css.scss: ".field_with_errors" failed to @extend ".firm-control".
+  The selector ".firm-control" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .firm-control !optional" if the extend should be able to fail.
+
+
+Completed 200 OK in 1392ms (Views: 1348.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:19:23 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 40ms (Views: 32.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:30:23 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:30:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:30:24 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:30:24 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:34:05 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (3.3ms)
+ERROR: compiling _app_views_layouts_application_html_erb___1820242988866672655_70092022723540 RAISED /home/action/game_contest_server/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/action/game_contest_server/app/views/layouts/application.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end
+Function body:           def _app_views_layouts_application_html_erb___1820242988866672655_70092022723540(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "layouts/application";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<!DOCTYPE html>
+<html>
+<head>
+  <title>GameContestServer</title>
+  ';@output_buffer.append=( stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( javascript_include_tag "application", "data-turbolinks-track" => true );@output_buffer.safe_append='
+  ';@output_buffer.append=( csrf_meta_tags );@output_buffer.safe_append='
+</head>
+<body>
+  
+'; flash.each do |level, message| 
+@output_buffer.safe_append='  <div class="alert alert-';@output_buffer.append=( level );@output_buffer.safe_append='">';@output_buffer.append=( message );@output_buffer.safe_append='</div>
+
+';@output_buffer.append=( yield );@output_buffer.safe_append='
+
+</body>
+</html>
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `module_eval'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:299:in `compile'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:248:in `block in compile!'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `synchronize'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:236:in `compile!'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:142:in `block in render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:161:in `instrument'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/template.rb:141:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_view/renderer/renderer.rb:23:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:97:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:189:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:403:in `_run__2788264346493028237__process_action__callbacks'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3561417945617971726__call__callbacks'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/home/action/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (/home/action/game_contest_server/app/views/layouts/application.html.erb:19: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/action/game_contest_server/app/views/layouts/application.html.erb:21: syntax error, unexpected end-of-input, expecting keyword_end):
+    16: </body>
+    17: </html>
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.0) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.0) lib/action_view/template.rb:248:in `block in compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `synchronize'
+  actionpack (4.0.0) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.0) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.0) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.0) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__2788264346493028237__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3561417945617971726__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (28.5ms)
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:35:13 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (3.1ms)
+  Rendered users/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 28ms (Views: 19.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:35:15 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:35:16 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:36:37 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"hi", "email"=>"hi@hi.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'hi' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (90.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Wed, 09 Oct 2013 13:36:38 UTC +00:00], ["email", "hi@hi.com"], ["password_digest", "$2a$10$hpY8Rxh1JCyUlPsLGMccmu1m7t8ToWJNzy6CO6pltl5wxEIem3kS2"], ["updated_at", Wed, 09 Oct 2013 13:36:38 UTC +00:00], ["username", "hi"]]
+  [1m[35m (40.2ms)[0m  commit transaction
+Redirected to http://my-awesome-box-27273.use1.actionbox.io/users/9
+Completed 302 Found in 233ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/" for 192.195.249.223 at 2013-10-09 13:37:42 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 32ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:37:45 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (10.4ms)
+  Rendered users/new.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 135ms (Views: 120.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:37:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:37:46 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:37:46 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:37:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:37:47 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:37:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:37:47 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:37:47 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:37:47 +0000
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 48ms (Views: 38.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:13 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:14 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:39:14 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:39:29 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"hi", "email"=>"hi@hi.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'hi' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (1.6ms)
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 205ms (Views: 17.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:39:30 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:39:35 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"hello", "email"=>"hi@hi.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'hello' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  Rendered users/_user_form.html.erb (1.8ms)
+  Rendered users/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 83ms (Views: 61.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:35 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:39:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:36 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:39:40 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:39:40 +0000
+
+
+Started POST "/users" for 192.195.249.223 at 2013-10-09 13:39:56 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IsC1x9NDNpXkOp2kDoMlQVt6WICTYnYpTnIzQ452kpA=", "user"=>{"username"=>"hello", "email"=>"dhi@hi.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = 'hello' LIMIT 1[0m
+Binary data inserted for `string` type on column `password_digest`
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO "users" ("created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?)  [["created_at", Wed, 09 Oct 2013 13:39:56 UTC +00:00], ["email", "dhi@hi.com"], ["password_digest", "$2a$10$zZeaUuA7jnhgo/S7DOmRuuTilN5btGClUKsp6fWOO.eVdDelSHZ2."], ["updated_at", Wed, 09 Oct 2013 13:39:56 UTC +00:00], ["username", "hello"]]
+  [1m[36m (24.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://my-awesome-box-27273.use1.actionbox.io/users/10
+Completed 302 Found in 133ms (ActiveRecord: 30.1ms)
+
+
+Started GET "/users/new" for 192.195.249.223 at 2013-10-09 13:41:45 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:50 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:41:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:50 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:41:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:41:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:51 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:41:51 +0000
+
+
+Started GET "/users/10" for 192.195.249.223 at 2013-10-09 13:41:53 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 19.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:41:53 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:41:54 +0000
+
+
+Started GET "/users" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (2.3ms)
+  Rendered users/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.223 at 2013-10-09 13:44:06 +0000
+
+
+Started GET "/" for 192.195.249.202 at 2013-10-11 12:20:49 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 34ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:20:57 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (10.8ms)
+  Rendered users/new.html.erb within layouts/application (42.0ms)
+Completed 200 OK in 233ms (Views: 152.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:20:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:20:58 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:21:00 +0000
+
+
+Started POST "/users" for 192.195.249.202 at 2013-10-11 12:21:02 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YS5iRDCwxhpGvOGoOuSiT7FVtLz31aL0XXDZf2hSnFY=", "user"=>{"username"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM "users" WHERE "users"."username" = '' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  Rendered users/_user_form.html.erb (3.3ms)
+  Rendered users/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 44ms (Views: 20.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:21:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:21:02 +0000
+
+
+Started POST "/users" for 192.195.249.202 at 2013-10-11 12:21:20 +0000
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YS5iRDCwxhpGvOGoOuSiT7FVtLz31aL0XXDZf2hSnFY=", "user"=>{"username"=>"qwer", "email"=>"qwe@2ew.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create new account"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."username" = 'qwer' LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.4ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "password_digest", "updated_at", "username") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Fri, 11 Oct 2013 12:21:20 UTC +00:00], ["email", "qwe@2ew.com"], ["password_digest", "$2a$10$xjT5seZ0LRhRL7dTcZl7PuMR8aui6SQq8s.6poXkFCoBtn7bI/7Oa"], ["updated_at", Fri, 11 Oct 2013 12:21:20 UTC +00:00], ["username", "qwer"]]
+  [1m[35m (29.9ms)[0m  commit transaction
+Redirected to http://my-awesome-box-27273.use1.actionbox.io:3000/users/11
+Completed 302 Found in 137ms (ActiveRecord: 35.6ms)
+
+
+Started GET "/users/11" for 192.195.249.202 at 2013-10-11 12:21:20 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered users/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 48.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:21:20 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:22:39 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (12.6ms)
+  Rendered users/new.html.erb within layouts/application (38.8ms)
+Completed 200 OK in 181ms (Views: 141.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:22:40 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:17 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:24:19 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:24:20 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:24:20 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:29:54 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:30:53 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:30:58 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:30:59 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:32:31 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:32:32 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:10 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:33:17 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:36:09 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:09 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:09 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:10 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:36:56 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 19ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:36:57 +0000
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:36:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (39.2ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:36:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.9ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 21ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:14 +0000
+
+
+Started GET "/new" for 192.195.249.202 at 2013-10-11 12:37:17 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.0ms)
+
+
+Started GET "/new" for 192.195.249.202 at 2013-10-11 12:37:17 +0000
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:37:25 +0000
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:37:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.9ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:37:26 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (38.8ms)
+
+
+Started GET "/" for 192.195.249.202 at 2013-10-11 12:37:43 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.0/lib/rails/templates/rails/welcome/index.html.erb (0.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:38:47 +0000
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:38:49 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (3.0ms)
+  Rendered users/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 266ms (Views: 265.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:38:51 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (2.0ms)
+  Rendered users/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 25ms (Views: 24.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:38:57 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.6ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:38:57 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:40:23 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 645ms (Views: 644.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:40:24 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:41:14 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:15 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:41:30 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:15 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:15 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:15 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:42:42 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:42:46 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:44:53 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 27ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:44:53 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:44:53 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:44:53 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:44:54 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:44:54 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:44:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:44:54 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:44:54 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:47:56 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:48:03 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (8.7ms)
+  Rendered users/new.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:03 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:04 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:27 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:30 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:31 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:31 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:38 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:48:48 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:50:22 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:50:34 +0000
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:53:29 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (2.1ms)
+  Rendered users/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:53:30 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.2ms)
+  Rendered users/new.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:53:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.6ms)
+
+
+Started GET "/users/users/new" for 192.195.249.202 at 2013-10-11 12:53:32 +0000
+
+ActionController::RoutingError (No route matches [GET] "/users/users/new"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/action/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.8ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (29.5ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.1ms)
+  Rendered users/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 12:54:14 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:15 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:17 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (2.1ms)
+  Rendered users/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:17 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:18 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:18 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:19 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:19 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:19 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:20 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:20 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/10" for 192.195.249.202 at 2013-10-11 12:54:24 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered users/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:35 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.3ms)
+  Rendered users/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:35 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (2.1ms)
+  Rendered users/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:36 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:39 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:40 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (2.8ms)
+  Rendered users/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:40 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.8ms)
+  Rendered users/index.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 50ms (Views: 48.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:41 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:42 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:43 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:43 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:43 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (5.5ms)
+  Rendered users/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 25ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:43 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.8ms)
+  Rendered users/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:44 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 12:54:44 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.8ms)
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 12:54:44 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 13:01:16 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/stylein.css?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/users.css?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/assets/digital.jpg" for 192.195.249.202 at 2013-10-11 13:01:17 +0000
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 13:01:19 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 72ms (Views: 71.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 13:01:20 +0000
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 13:01:22 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 192.195.249.202 at 2013-10-11 13:01:26 +0000
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (1.9ms)
+  Rendered users/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 46ms (Views: 45.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.195.249.202 at 2013-10-11 13:01:27 +0000
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (231.6ms)
+Completed 200 OK in 247ms (Views: 245.9ms | ActiveRecord: 0.0ms)
