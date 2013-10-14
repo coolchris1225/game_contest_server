@@ -7,12 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-inverse" role="navigation">
+  
   <div class="navbar-header">
     <ul class="nav navbar-nav">
-    <li><a href="/users">View users</a></li>
-      <li><a  href="/users/new">Create a user</a></li>
+    <li<%= if current_page?(users_path) or current_page?(root_path) then ' class=active' end %>>
+      <a href="/users">View users</a></li>
+      <li<%= if current_page?(new_user_path) then ' class=active' end %>>
+        <a  href="/users/new">Create a user</a></li>
+      
     </ul>
   </div>
   </nav>
