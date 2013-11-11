@@ -3,4 +3,7 @@ class User < ActiveRecord::Base
   REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, :format => { :with => REGEX }
   has_secure_password
+  has_many :referees
+  belongs_to :players
+  belongs_to :contests
 end

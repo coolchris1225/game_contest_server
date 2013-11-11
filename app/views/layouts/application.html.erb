@@ -15,8 +15,17 @@
       <a href="/users">View users</a></li>
       <li<%= if current_page?(new_user_path) then ' class=active' end %>>
         <a  href="/users/new">Create a user</a></li>
-      <li<%= if current_page?(login_path) then ' class=active' end %>>
-        <a  href="/login">Login</a></li>
+      
+      
+      
+      <% if logged_in? %>
+                <li><%= link_to "Log Out", logout_path, method: "delete" %></li>
+                <li><%= link_to "Profile", user_path(current_user) %></li>
+                <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+          <% else %>
+                <li <%= if current_page?(login_path) then 'class=active' end%>><%= link_to "Log In", login_path %></li>
+                <li <%= if current_page?(signup_path) then 'class=active' end%>><%= link_to "Sign Up", signup_path %></li>
+          <% end %>
       
     </ul>
   </div>

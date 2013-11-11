@@ -12,7 +12,15 @@ describe User do
   it { should respond_to(:password_confirmation) }
   it { should respond_to(:authenticate) }
 
+  it { should respond_to(:admin) }
+  it { should respond_to(:contest_creator) }
+  it { should respond_to(:banned) }
+
+  it { should respond_to(:chat_url) }
+
   it { should be_valid }
+  it { should_not be_admin }
+  it { should_not be_contest_creator }
 
   describe "empty username" do
     before { user.username = '' }
@@ -98,5 +106,17 @@ describe User do
       it { should_not eq authenticated_user }
       specify { expect(authenticated_user).to be_false }
     end
+  end
+
+  describe "admin capabilities" do
+    let(:admin) { FactoryGirl.create(:admin) }
+
+    specify { expect(admin).to be_admin }
+  end
+
+  describe "contest creator capabilities" do
+    let(:contest_creator) { FactoryGirl.create(:contest_creator) }
+
+    specify { expect(contest_creator).to be_contest_creator }
   end
 end
