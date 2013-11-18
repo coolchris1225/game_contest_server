@@ -15,19 +15,40 @@
       <a href="/users">View users</a></li>
       <li<%= if current_page?(new_user_path) then ' class=active' end %>>
         <a  href="/users/new">Create a user</a></li>
+       <li <%= if current_page?(referees_path) then 'class=active' end %>>
+              <%= link_to "Referees", referees_path %></li>
+        <li <%= if current_page?(contests_path) then 'class=active' end %>>
+              <%= link_to "Contests", contests_path %></li>
+         <li <%= if current_page?(players_path) then 'class=active' end %>>
+              <%= link_to "Players", players_path %></li>
       
       
       
       <% if logged_in? %>
-                <li><%= link_to "Log Out", logout_path, method: "delete" %></li>
-                <li><%= link_to "Profile", user_path(current_user) %></li>
-                <li><%= link_to "Settings", edit_user_path(current_user) %></li>
-          <% else %>
-                <li <%= if current_page?(login_path) then 'class=active' end%>><%= link_to "Log In", login_path %></li>
-                <li <%= if current_page?(signup_path) then 'class=active' end%>><%= link_to "Sign Up", signup_path %></li>
+<li <%= if current_page?(user_path(current_user)) then 'class=active' end %>>
+              <%= link_to "Profile", user_path(current_user) %></li>
+          <li <%= if current_page?(edit_user_path(current_user)) then 'class=active' end %>>
+              <%= link_to "Settings", edit_user_path(current_user) %></li>
+          <% if current_user.contest_creator? || current_user.admin? %>
+            <li <%= if current_page?(new_referee_path) then 'class=active' end %>>
+              <%= link_to "Create Referee", new_referee_path %></li>
+            <li <%= if current_page?(new_contest_path) then 'class=active' end %>>
+              <%= link_to "Create Contest", new_contest_path %></li>
           <% end %>
-      
-    </ul>
+        <li <%= if current_page?(new_player_path) then 'class=active' end %>>
+              <%= link_to "Create Player", new_player_path %></li>
+          <div class="navbar-header pull-right">
+            <ul class="nav navbar-nav" >
+              <li><%= link_to "Log Out", logout_path,  method: :delete %></li>
+            </ul>
+          </div>
+        <% else %>
+          <li <%= if current_page?(signup_path) then 'class=active' end %>>
+            <%= link_to "Sign Up", signup_path %></li>
+          <li <%= if current_page?(login_path) then 'class=active' end %>>
+            <%= link_to "Log In", login_path %></li>
+        <% end %>
+      </ul>
   </div>
   </nav>
 
