@@ -26158,3 +26158,132 @@ Processing by UsersController#index as HTML
   Rendered users/_user.html.erb (0.9ms)
   Rendered users/index.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.3ms)
+  [1m[36m (56.9ms)[0m  [1mCREATE TABLE "contests" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "deadline" datetime, "start" datetime, "description" text, "name" varchar(255), "contest_type" varchar(255), "user_id" integer, "referee_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (28.8ms)[0m  CREATE INDEX "index_contests_on_referee_id" ON "contests" ("referee_id")
+  [1m[36m (34.1ms)[0m  [1mCREATE INDEX "index_contests_on_user_id" ON "contests" ("user_id")[0m
+  [1m[35m (48.8ms)[0m  CREATE TABLE "matches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "status" varchar(255), "compleation" date, "earliest_start" datetime, "manager_id" integer, "manager_type" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (50.8ms)[0m  [1mCREATE INDEX "index_matches_on_manager_id_and_manager_type" ON "matches" ("manager_id", "manager_type")[0m
+  [1m[35m (57.2ms)[0m  CREATE TABLE "player_matches" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "score" float, "result" varchar(255), "player_id" integer, "match_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (36.4ms)[0m  [1mCREATE INDEX "index_player_matches_on_match_id" ON "player_matches" ("match_id")[0m
+  [1m[35m (416.1ms)[0m  CREATE INDEX "index_player_matches_on_player_id" ON "player_matches" ("player_id")
+  [1m[36m (55.6ms)[0m  [1mCREATE TABLE "players" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "file_location" varchar(255), "description" text, "name" varchar(255), "downloadable" boolean, "playable" boolean, "users_id" integer, "contest_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (65.6ms)[0m  CREATE INDEX "index_players_on_contest_id" ON "players" ("contest_id")
+  [1m[36m (44.0ms)[0m  [1mCREATE INDEX "index_players_on_users_id" ON "players" ("users_id")[0m
+  [1m[35m (43.2ms)[0m  CREATE TABLE "referees" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "file_location" varchar(255), "name" varchar(255), "rules_url" varchar(255), "players_per_game" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (106.3ms)[0m  [1mCREATE INDEX "index_referees_on_user_id" ON "referees" ("user_id")[0m
+  [1m[35m (52.1ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "username" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255), "email" varchar(255), "admin" boolean DEFAULT 'f', "banned" boolean, "contest_creator" boolean, "chat_url" varchar(255)) 
+  [1m[36m (15.8ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (22.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (45.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131030135342')
+  [1m[36m (270.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130913132115')[0m
+  [1m[35m (152.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130918132538')
+  [1m[36m (82.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20130918133601')[0m
+  [1m[35m (15.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130921185841')
+  [1m[36m (53.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131016134357')[0m
+  [1m[35m (186.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131030130740')
+  [1m[36m (61.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131030131359')[0m
+  [1m[35m (77.9ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131030133433')
+  [1m[36m (111.5ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131030133648')[0m
+  [1m[35m (98.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131030133840')
+  [1m[36m (70.1ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20131030133916')[0m
+  [1m[35m (81.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20131030134553')
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/contests" for 192.195.249.176 at 2013-11-18 14:40:50 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 620ms (Views: 537.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/contests" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.3ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 114ms (Views: 113.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/referees.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/application.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/sessions.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/assets/users.js?body=1" for 192.195.249.176 at 2013-11-18 14:40:51 +0000
+
+
+Started GET "/referees" for 192.195.249.176 at 2013-11-18 14:40:52 +0000
+Processing by RefereesController#index as HTML
+  Rendered referees/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <% provide(:title, 'All referees') %>
+    2: <h2>List of referees</h2>
+    3: <h3><%= @referees.length %> referees</h3>
+    4: <ul>
+    5:   <%= render @referees %>
+    6: </ul>
+  app/views/referees/index.html.erb:3:in `_app_views_referees_index_html_erb__1298399339089328680_70190839164520'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.3ms)
+
+
+Started GET "/referees" for 192.195.249.176 at 2013-11-18 14:40:52 +0000
+Processing by RefereesController#index as HTML
+  Rendered referees/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <% provide(:title, 'All referees') %>
+    2: <h2>List of referees</h2>
+    3: <h3><%= @referees.length %> referees</h3>
+    4: <ul>
+    5:   <%= render @referees %>
+    6: </ul>
+  app/views/referees/index.html.erb:3:in `_app_views_referees_index_html_erb__1298399339089328680_70190705528840'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.7ms)
+
+
+Started GET "/referees" for 192.195.249.176 at 2013-11-18 14:41:40 +0000
+Processing by RefereesController#index as HTML
+  Rendered referees/index.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <% provide(:title, 'All referees') %>
+    2: <h2>List of referees</h2>
+    3: <h3><%= @referee.length %> referees</h3>
+    4: <ul>
+    5:   <%= render @referee %>
+    6: </ul>
+  app/views/referees/index.html.erb:3:in `_app_views_referees_index_html_erb__1298399339089328680_12313960'
+
+
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
