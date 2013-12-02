@@ -1,0 +1,7 @@
+<% provide(:title, "Edit player") %>
+<h1>Update player</h1>
+
+<%= form_for @player do |f| %>
+  <%= render 'player_form', f: f %>
+  <%= f.submit 'Update Player' %>
+<%end %>

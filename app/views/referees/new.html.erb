@@ -1,0 +1,7 @@
+<% provide(:title, 'Create Referee') %>
+<h1>Create Referee</h1>
+
+<%= form_for @referee do |f| %>
+  <%= render 'referee_form', f: f %>
+  <%= f.submit 'Create Referee' %>
+<%end %>

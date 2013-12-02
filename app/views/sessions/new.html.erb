@@ -1,0 +1,10 @@
+<h1>Log In</h1>
+
+<%= form_tag sessions_path do %>
+  <%= label_tag :username %>
+  <%= text_field_tag :username, params[:username] %>
+
+  <%= label_tag :Password %>
+  <%= password_field_tag :Password, params[:password] %>
+  <%= submit_tag 'Log In', class: 'btn btn-primary' %> 
+<% end %>

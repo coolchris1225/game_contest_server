@@ -1,0 +1,7 @@
+<% provide(:title, 'Create Contest!') %>
+<h1>Create Contest!</h1>
+
+<%= form_for @contest do |f| %>
+  <%= render 'contest_form', f: f %>
+  <%= f.submit 'Create Contest' %>
+<%end %>

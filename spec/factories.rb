@@ -39,8 +39,8 @@ FactoryGirl.define do
   factory :contest do
     user
     referee
-    deadline Time.now
-    start Time.now
+    deadline Time.current + 1.day
+    start Time.current + 2.days
     description "Contest Description Here"
     sequence(:name) { |i| "Contest #{i}" }
     contest_type "Generic Contest Type"
@@ -48,11 +48,18 @@ FactoryGirl.define do
 
   factory :match do
     status "Unknown Status"
-    completion Time.now
-    earliest_start Time.now
+    completion Time.current
+    earliest_start Time.current
 
     factory :contest_match do
       association :manager, factory: :contest
+
+      before(:create) do |match|
+	match.manager.referee.players_per_game.times do
+	  p = create(:player, contest: match.manager)
+	  create(:player_match, player: p, match: match)
+	end
+      end
     end
 
     factory :challenge_match do
@@ -60,11 +67,17 @@ FactoryGirl.define do
     end
   end
 
-
   factory :player do
     user
     contest
-    sequence(:file_location) { |i| "/path/to/player/code/#{i}" }
+    sequence(:file_location) do |i|
+      location = Rails.root.join('code',
+				 'players',
+				 'test',
+				 "FactoryGirl-fake-code-#{i}").to_s
+      FileUtils.touch(location)
+      location
+    end
     description "Player Description Here"
     sequence(:name) { |i| "Player #{i}" }
   end
@@ -74,5 +87,13 @@ FactoryGirl.define do
     association :match, factory: :contest_match
     score 1.0
     result "Unknown Result"
+
+    factory :winning_match do
+      result "Win"
+    end
+
+    factory :losing_match do
+      result "Loss"
+    end
   end
 end
