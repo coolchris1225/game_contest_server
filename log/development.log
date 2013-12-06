@@ -26287,3 +26287,145 @@ ActionView::Template::Error (undefined method `length' for nil:NilClass):
   Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
   Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
   Rendered /home/action/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-05 19:43:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered collection (0.0ms)
+  Rendered users/index.html.erb within layouts/application (6.6ms)
+WARNING on line 5 of /Volumes/Mac DRV/Desktop/COS243/game_contest_server/app/assets/stylesheets/stylein.css.scss: ".field_with_errors" failed to @extend ".firm-control".
+  The selector ".firm-control" was not found.
+  This will be an error in future releases of Sass.
+  Use "@extend .firm-control !optional" if the extend should be able to fail.
+
+Completed 200 OK in 2172ms (Views: 2117.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/stylein.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:51 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:52 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:52 -0500
+
+
+Started GET "/assets/digital.jpg" for 127.0.0.1 at 2013-12-05 19:43:52 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-05 19:43:56 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.1ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 7.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-05 19:43:56 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:56 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:56 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+Processing by RefereesController#index as HTML
+  Rendered referees/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <% provide(:title, 'All referees') %>
+    2: <h2>List of referees</h2>
+    3: <h3><%= @referees.length %> referees</h3>
+    4: <ul>
+    5:   <%= render @referees %>
+    6: </ul>
+  app/views/referees/index.html.erb:3:in `_app_views_referees_index_html_erb___3428688413175494390_2181063660'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (19.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-05 19:43:57 -0500
+Processing by RefereesController#index as HTML
+  Rendered referees/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `length' for nil:NilClass):
+    1: <% provide(:title, 'All referees') %>
+    2: <h2>List of referees</h2>
+    3: <h3><%= @referees.length %> referees</h3>
+    4: <ul>
+    5:   <%= render @referees %>
+    6: </ul>
+  app/views/referees/index.html.erb:3:in `_app_views_referees_index_html_erb___3428688413175494390_2155806600'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.0ms)
