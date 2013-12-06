@@ -1,7 +1,7 @@
 class MatchesController < ApplicationController
   def index
     @contest = Contest.find(params[:contest_id])
-    @matches = Match.all
+    @matches = @contest.matches
   end
   
   def show

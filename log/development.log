@@ -11755,3 +11755,2891 @@ Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-05 23:17:37 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-05 23:17:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (11.5ms)
+  Rendered users/index.html.erb within layouts/application (33.2ms)
+Completed 200 OK in 182ms (Views: 144.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:15 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:47:20 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:47:20 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:21 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.1ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 19ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:22 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.1ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:23 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (9.7ms)
+  Rendered users/new.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:24 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:25 -0500
+
+
+Started POST "/sessions" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+pLQDfQBIK4quJdGm+HqL7XViqEQwDwzUoz712SJ6Dw=", "username"=>"hi", "password"=>"[FILTERED]", "commit"=>"Log In"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."username" = 'hi' LIMIT 1
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 80ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPlayer Load (3.0ms)[0m  SELECT "players".* FROM "players" WHERE "players"."user_id" = ?  [["user_id", 1]]
+  Rendered users/_user_players.html.erb (0.0ms)
+  Rendered users/show.html.erb within layouts/application (50.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 62ms (Views: 56.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:29 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:32 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:33 -0500
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/_user_form.html.erb (1.4ms)
+  Rendered users/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users/1/edit" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/edit.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:35 -0500
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+pLQDfQBIK4quJdGm+HqL7XViqEQwDwzUoz712SJ6Dw="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.4ms)
+  Rendered users/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:52 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:54 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:55 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:56 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.8ms)
+  Rendered users/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:57 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (30.2ms)
+Completed 200 OK in 38ms (Views: 37.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:58 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:47:59 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:00 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 37ms (Views: 36.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:01 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:09 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:48:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:48:10 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:10 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:10 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:10 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/application (34.8ms)
+Completed 200 OK in 44ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:19 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:20 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:21 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.2ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:22 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.8ms)
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:23 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 08:48:24 -0500
+
+
+Started GET "/login" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 126ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/digital.jpg" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/assets/bankgthd.ttf" for 127.0.0.1 at 2013-12-06 10:02:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.8ms)
+  Rendered users/index.html.erb within layouts/application (44.7ms)
+Completed 200 OK in 63ms (Views: 51.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.3ms)
+  Rendered users/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:26 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:36 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.1ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 19ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 35.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 10:02:37 -0500
+Processing by ContestsController#index as HTML
+  [1m[35mContest Load (0.1ms)[0m  SELECT "contests".* FROM "contests"
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 16ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/contests" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+Processing by ContestsController#index as HTML
+  [1m[36mContest Load (0.2ms)[0m  [1mSELECT "contests".* FROM "contests"[0m
+  Rendered collection (0.0ms)
+  Rendered contests/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:38 -0500
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (41.2ms)
+  Rendered users/new.html.erb within layouts/application (43.4ms)
+Completed 200 OK in 51ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+Processing by UsersController#new as HTML
+  Rendered users/_user_form.html.erb (0.9ms)
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:39 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.2ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:50 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:53 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users"
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.html.erb (0.2ms)
+  Rendered users/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:54 -0500
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+Processing by RefereesController#index as HTML
+  [1m[35mReferee Load (0.2ms)[0m  SELECT "referees".* FROM "referees"
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/referees" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+Processing by RefereesController#index as HTML
+  [1m[36mReferee Load (0.1ms)[0m  [1mSELECT "referees".* FROM "referees"[0m
+  Rendered collection (0.0ms)
+  Rendered referees/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/players.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/matches.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/contests.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/mainstyle.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/referees.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/contests.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/matches.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/players.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/referees.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-06 10:02:55 -0500

@@ -7,7 +7,7 @@ class Match < ActiveRecord::Base
   
   validates :manager, presence: true
   validates :status, presence: true
-  validates_date :completion, :on_or_before => lambda { Time.now.change(:usec =>0) }, :if => :checkthefuture
+  validates_date :completion, :on_or_before => :now, :if => :checkthefuture
   validates_datetime :earliest_start, :if => :checking
   validate :check_number_of_players
   
@@ -21,7 +21,7 @@ class Match < ActiveRecord::Base
   
 def checkthefuture
     if self.status != "Completed"
-      return nil
+      return false
     else
       return true
     end
@@ -29,9 +29,9 @@ def checkthefuture
   
   def checking 
     if self.status=="Completed" 
-      return nil
+      return false
     elsif self.status=="Started"
-      return nil
+      return false
     else
       return true
     end

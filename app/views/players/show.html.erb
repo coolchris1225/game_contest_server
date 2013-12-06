@@ -22,5 +22,5 @@
     <% @losses += 1 if f.result == "Loss" %>
     <li><%= f.result %> - <%= link_to f.match_id, match_path(f.match) %></li>
   <%end%>
-  <li>Record: <%= @wins %>-<%= @losses %></li>
+  <li>Record: <%= @player.player_matches.wins.count %>-<%= @player.player_matches.losses.count %></li>
 </ul>
