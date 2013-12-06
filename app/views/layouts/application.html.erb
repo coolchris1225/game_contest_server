@@ -7,25 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<nav class="navbar navbar-inverse" role="navigation">
-  
-  <div class="navbar-header">
-    <ul class="nav navbar-nav">
-    <li<%= if current_page?(users_path) or current_page?(root_path) then ' class=active' end %>>
-      <a href="/users">View users</a></li>
-      <li<%= if current_page?(new_user_path) then ' class=active' end %>>
-        <a  href="/users/new">Create a user</a></li>
-       <li <%= if current_page?(referees_path) then 'class=active' end %>>
+  <nav class="navbar navbar-inverse" role="navigation">
+    
+    <div class="navbar-header">
+      <ul class="nav navbar-nav">
+        <li>
+            <%= link_to "Game Contest Server", root_path %></li>
+        <li <%= if current_page?(root_path) then 'class=active' end %>>
+            <%= link_to "Home", root_path %></li>
+        <li <%= if current_page?(users_path) then 'class=active' end %>>
+              <%= link_to "Users", users_path %></li>
+        <li <%= if current_page?(referees_path) then 'class=active' end %>>
               <%= link_to "Referees", referees_path %></li>
         <li <%= if current_page?(contests_path) then 'class=active' end %>>
               <%= link_to "Contests", contests_path %></li>
-         <li <%= if current_page?(players_path) then 'class=active' end %>>
-              <%= link_to "Players", players_path %></li>
-      
-      
-      
-      <% if logged_in? %>
-<li <%= if current_page?(user_path(current_user)) then 'class=active' end %>>
+        <% if logged_in? %>
+          <li <%= if current_page?(user_path(current_user)) then 'class=active' end %>>
               <%= link_to "Profile", user_path(current_user) %></li>
           <li <%= if current_page?(edit_user_path(current_user)) then 'class=active' end %>>
               <%= link_to "Settings", edit_user_path(current_user) %></li>
@@ -35,8 +32,6 @@
             <li <%= if current_page?(new_contest_path) then 'class=active' end %>>
               <%= link_to "Create Contest", new_contest_path %></li>
           <% end %>
-        <li <%= if current_page?(new_player_path) then 'class=active' end %>>
-              <%= link_to "Create Player", new_player_path %></li>
           <div class="navbar-header pull-right">
             <ul class="nav navbar-nav" >
               <li><%= link_to "Log Out", logout_path,  method: :delete %></li>
@@ -49,18 +44,16 @@
             <%= link_to "Log In", login_path %></li>
         <% end %>
       </ul>
-  </div>
+    </div>
   </nav>
 
+  <% flash.each do |level, message| %>
+    <div class="alert alert-<%= level %>"%><%= message %></div>
+  <% end %>
   
-<% flash.each do |level, message| %>
-  <div class="alert alert-<%= level %>"><%= message %></div>
- <% end %>
-<div class="container">
-  
-<%= yield %>
-  
+  <div class="container">
+    <%= yield %>
   </div>
-  
+
 </body>
 </html>

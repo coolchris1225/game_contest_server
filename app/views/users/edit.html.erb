@@ -2,7 +2,6 @@
 <h1>Update your profile</h1>
 
 <%= form_for @user do |f| %>
-<%= render 'user_form', f: f %>
- <%=f.submit "Update account"%>
-<% end %>
-
+  <%= render 'user_form', f: f %>
+  <%= f.submit 'Update account' %>
+<%end %>

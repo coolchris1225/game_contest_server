@@ -30,7 +30,7 @@ describe Contest do
   end
 
   describe "deadline now" do
-    before { contest.deadline = Time.current }
+    before { contest.deadline = Time.current + 5.seconds }
     it { should be_valid }
   end
 
@@ -67,7 +67,7 @@ describe Contest do
   end
 
   describe "start now" do
-    before { contest.deadline = contest.start = Time.current }
+    before { contest.deadline = contest.start = Time.current + 5.seconds }
     it { should be_valid }
   end
 

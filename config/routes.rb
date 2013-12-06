@@ -1,21 +1,21 @@
-GameContestServer::Application.routes.draw do  
-  root 'users#index'
+GameContestServer::Application.routes.draw do
   resources :users
-  resources :sessions, only:[:new, :create, :destroy]
+  resources :sessions, only:[ :new, :create, :destroy]
   resources :referees
-  resources :contests
-  resources :players
+  resources :contests do
+    resources :players, shallow: true
+    resources :matches, shallow: true, only:[ :index, :show]
+  end
   
+
   get 'signup', to: 'users#new', as: 'signup'
-  get 'login', to: 'sessions#new', as: 'login' 
-  delete 'logout', to: 'sessions#destroy', as: 'logout' 
-  
-  
+  get 'login', to: 'sessions#new', as: 'login'
+  delete 'logout', to: 'sessions#destroy', as: 'logout'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'users#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

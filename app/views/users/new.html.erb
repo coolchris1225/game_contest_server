@@ -1,11 +1,8 @@
+<% provide(:title, 'Sign up!') %>
+<h1>Sign up!</h1>
 
-<h1>Sign Up!</h1>
-
-
-
-<div id='form'>
 <%= form_for @user do |f| %>
-<%= render 'user_form', f: f %>
-<%=f.submit "Create new account"%>
-</div>
-<%end%>
+  <%= render 'user_form', f: f %>
+  <%= f.submit 'Create new account' %>
+<%end %>
+
